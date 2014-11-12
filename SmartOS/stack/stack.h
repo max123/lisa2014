@@ -1,0 +1,3 @@
+
+#define REDZONE_OVERFLOW 1
+#define CORRUPT_OVERFLOW 2

@@ -1,0 +1,13 @@
+To build and install on SmartOS
+
+# gcc -mcmodel=large -m64 -c -O bdtrp.c -D_KERNEL
+# ld -r -o bdtrp bdtrp.o
+
+# cp bdtrp /kernel/drv/amd64/
+# cp bdtrp.conf /kernel/drv/
+# add_drv bdtrp
+
+To crash the system:
+
+# cat /devices/pseudo/bdtrp@0:bdtrp
+

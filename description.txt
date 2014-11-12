@@ -1,0 +1,12 @@
+This 1/2 day tutorial examines debugging tools and techniques.  It concentrates
+on kernel debugging, with emphasis on tools available on SmartOS.  Tools  for
+other operating systems (e.g., Linux and *BSD) are also covered.  The tutorial starts with a
+description of the available tools on each of the OSes.  It then goes through several
+example debugging sessions, using the tools and the source code to drill down to find
+the root cause of the problems.  Developers, devops, and experienced administrators
+who have encountered crashes will benefit from this tutorial.  For completeness, some
+of the discussion and a lab is aimed at user level problems.   To follow along, attendees should have
+access to at least a machine (can be virtualized) running SmartOS (available at
+http://wiki.smartos.org/display/DOC/Download+SmartOS).  Access to Linux and FreeBSD systems will be helpful.
+
+

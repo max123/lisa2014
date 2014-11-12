@@ -1,0 +1,20 @@
+To build and install:
+
+gcc -m64 -mcmodel=large -c -O -D_KERNEL stack.c
+ld -r -o stack
+cp stack /kernel/drv/amd64
+cp stack.conf /kernel/drv
+add_drv stack
+
+add_drv should return with no output.
+
+To run the test (should panic):
+
+gcc -m64 stacktest.c -o stacktest
+
+./stacktest red
+
+or
+
+./stacktest corrupt
+
